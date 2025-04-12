@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Courier New", monospace;
+      padding: 20px;
+    }
+
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Profil saya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Profil mikael</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kisahku">Kisahku</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tugas">tugas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="beranda" class="pt-5 mt-5 bg-light text-center">
+    <div class="container py-5">
+      <img src="D:\VS Code FIks\UTS_Platform\bootstrap-5.2.3-dist\gamteng.jpg" class="rounded-circle mb-3"
+        alt="Foto Profil">
+      <h2>MIKAEl</h2>
+      <p>NIM: 235314036</p>
+    </div>
+  </section>
+
+  <section id="tentang" class="py-5 bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <p>saya adalah seorang mahasiswa di Universitas Sanata Dharma Yogyakarta. dan sekarang saya berada di semester
+            4.</p>
+        </div>
+        <div class="col-md-5">
+          <p>Selain Ngoding. saya juga suka membaca buku dan belajar tentang investasi Crypto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="kisahku" class="py-5 bg-light">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="D:\VS Code FIks\UTS_Platform\bootstrap-5.2.3-dist\WhatsApp Image 2025-04-12 at 11.23.15_6e97c667.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ulang Tahun Teman</h5>
+            <p class="card-text">ualng tahun ini adalah ulang tahun yang dilakukan pada tahun lalu, kami berpesta (no
+              alcohol), makan-makan, berdoa dan bernyanyi.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="D:\VS Code FIks\UTS_Platform\bootstrap-5.2.3-dist\WhatsApp Image 2025-04-12 at 11.24.11_6ab7f74c.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kegiatan Organisasi</h5>
+            <p class="card-text">Ini adalah salah satu kegiatan organisasi, nama kegiatannya adalah dikjut(didikan
+              lanjutan) untuk anggota baru. disini saya berperan sebagai panitia pendamping pendakian ke gunung lawu via
+              candi cetho.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="D:\VS Code FIks\UTS_Platform\bootstrap-5.2.3-dist\WhatsApp Image 2025-04-12 at 11.24.20_7fbc5899.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bercerita bersama Teman</h5>
+            <p class="card-text">mungkin ini adalah salah satu momen yang paling berkesan. kami menceritakan apa yang
+              seru untuk diceritakan bareng-bareng. mengapa momen ini sangat berkesan, ini karena aku tidak punya banyak
+              teman dikampus,
+              aku fokus pada pengembanganku sendiri, dan pada momen ini semua temanku bisa berkumpul bersama dalam waktu
+              yang sama. momen ini hampir langka.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pendidikan" class="py-5 bg-white">
+    <div class="container">
+      <h3 class="mb-4 text-center">Riwayat Pendidikan</h3>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Tahun</th>
+              <th>Nama Sekolah</th>
+              <th>Alamat Sekolah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2011 - 2017</td>
+              <td>SD Negeri 30 Tekalong Jaya</td>
+              <td>Dusun Tekalong Jaya, Desa Sentabai</td>
+            </tr>
+            <tr>
+              <td>2017 - 2020</td>
+              <td>SMP Swasta Panca Setya 1 Sintang</td>
+              <td>Jl. Imam Bonjol, Sintang</td>
+            </tr>
+            <tr>
+              <td>2020 - 2023</td>
+              <td>SMA Swasta Panca Setya Sintang</td>
+              <td>Jl. Imam Bonjol, Sintang</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="tugas" class="py-5 bg-light">
+    <div class="container">
+      <h3 class="mb-4 text-center">Form Tugas Hobi</h3>
+      <div id="formAwal">
+        <div class="mb-3">
+          <label for="namaDepan" class="form-label">Nama Depan</label>
+          <input type="text" id="namaDepan" class="form-control" placeholder="Masukkan nama depan" required>
+        </div>
+        <div class="mb-3">
+          <label for="namaBelakang" class="form-label">Nama Belakang</label>
+          <input type="text" id="namaBelakang" class="form-control" placeholder="Masukkan nama belakang" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="contoh@email.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="jumlahHobi" class="form-label">Jumlah Pilihan Hobi</label>
+          <input type="number" id="jumlahHobi" class="form-control" placeholder="Misal: 3" required>
+        </div>
+        <button onclick="generateHobiInput()" class="btn btn-primary">Oke</button>
+      </div>
+
+      <div id="formHobi" class="mt-4 d-none">
+        <h4>Masukkan Hobi Anda</h4>
+        <div id="hobiInputs" class="mb-3"></div>
+        <button onclick="tampilkanCheckbox()" class="btn btn-success">Oke</button>
+      </div>
+
+      <div id="formCheckbox" class="mt-4 d-none">
+        <h4>Pilih Hobi yang Anda Sukai</h4>
+        <div id="checkboxContainer" class="form-check mb-3"></div>
+        <button onclick="tampilkanHasil()" class="btn btn-info">Oke</button>
+      </div>
+
+      <div id="output" class="alert alert-success mt-4 d-none"></div>
+    </div>
+  </section>
+
+  <script>
+    function generateHobiInput() {
+      const jumlah = parseInt(document.getElementById("jumlahHobi").value);
+      const container = document.getElementById("hobiInputs");
+      container.innerHTML = "";
+      for (let i = 1; i <= jumlah; i++) {
+        container.innerHTML += `<input type="text" class="form-control mb-2" placeholder="Hobi ke-${i}" id="hobi${i}" required>`;
+      }
+      document.getElementById("formHobi").classList.remove("d-none");
+    }
+
+    function tampilkanCheckbox() {
+      const jumlah = parseInt(document.getElementById("jumlahHobi").value);
+      const container = document.getElementById("checkboxContainer");
+      container.innerHTML = "";
+      for (let i = 1; i <= jumlah; i++) {
+        const hobi = document.getElementById(`hobi${i}`).value;
+        container.innerHTML += `
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="${hobi}" id="check${i}">
+            <label class="form-check-label" for="check${i}">${hobi}</label>
+          </div>
+        `;
+      }
+      document.getElementById("formCheckbox").classList.remove("d-none");
+    }
+
+    function tampilkanHasil() {
+      const namaDepan = document.getElementById("namaDepan").value;
+      const namaBelakang = document.getElementById("namaBelakang").value;
+      const email = document.getElementById("email").value;
+      const jumlah = parseInt(document.getElementById("jumlahHobi").value);
+      let semuaHobi = [];
+      let hobiSuka = [];
+
+      for (let i = 1; i <= jumlah; i++) {
+        const hobi = document.getElementById(`hobi${i}`).value;
+        semuaHobi.push(hobi);
+        const checkbox = document.getElementById(`check${i}`);
+        if (checkbox.checked) {
+          hobiSuka.push(hobi);
+        }
+      }
+
+      const kalimat = `Hallo, nama saya <strong>${namaDepan} ${namaBelakang}</strong>, dengan email <strong>${email}</strong>, saya mempunyai sejumlah <strong>${jumlah}</strong> pilihan hobi yaitu <em>${semuaHobi.join(", ")}</em>, dan saya menyukai <em>${hobiSuka.join(", ")}</em>.`;
+
+      const output = document.getElementById("output");
+      output.innerHTML = kalimat;
+      output.classList.remove("d-none");
+    }
+  </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
